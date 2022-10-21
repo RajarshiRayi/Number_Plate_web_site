@@ -27,3 +27,4 @@ Follow this Steps:
 
   4. Detect the text in the image.
 
+**Note** The model accuracy of this model was around 70%
