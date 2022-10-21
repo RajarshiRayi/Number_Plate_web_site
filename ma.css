@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} */
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: steelblue;
+}
+.drag-area{
+  border: 2px dashed #fff;
+  height: 250px;
+  width: 700px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #1c1713;
+}
+.drag-area.active{
+  border: 2px solid #fff;
+}
+.drag-area .icon{
+  font-size: 70px;
+  color: #fff;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 250;
+  color: #fff;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 250;
+  color: #fff;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 250;
+  border: none;
+  outline: none;
+  background:cadetblue;
+  color:white ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.bu1
+{
+    margin: auto;
+    width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  
+  outline: none;
+  transition:  ease-in-out;
+}
+.bu1:hover
+{
+        transition:  ease-in-out;
+        background: #e57c53;
+        stroke-dashoffset: -480;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.title
+{
+    color: #fff;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.textfeild
+{
+    background-color:#1c1713 ;
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 300px;
+}
+.para
+{
+    color: #e9e5cf;
+    padding: 30px;
+}
